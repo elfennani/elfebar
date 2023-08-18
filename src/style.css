@@ -1,3 +1,11 @@
 * {
-    color: red;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+.background {
+    /* background-color: rgb(7, 15, 33); */
+    background-color: rgba(210, 219, 255, 0.12);
+}
+.box {
+    padding: 0 16px;
 }

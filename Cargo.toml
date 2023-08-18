@@ -9,9 +9,11 @@ edition = "2021"
 gtk = { version = "0.15", features = [ "v3_22" ] }
 gdk = "0.15"
 glib = "0.15"
-wayland-client = "0.30.2"
-winit = "0.28.6"
+gio = "0.15"
 gtk-layer-shell = { version = "0.4" }
+hyprland = "0.3.9"
+notify = "6.0.1"
+tokio = { version = "1.32.0", features = ["full"] }
 
 [dev-dependencies]
 cargo-watch = "8.4.0"
